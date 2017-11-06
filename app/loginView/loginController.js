@@ -3,5 +3,8 @@
  */
 
 userSystem.controller('loginController', ['$scope', function ($scope) {
-    $scope.message = "Hello World";
+
+    $scope.login = function () {
+        $scope.message = "Welcome " + $scope.user.email;
+    };
 }]);

@@ -11,12 +11,12 @@ userSystem.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'loginView/login.html',
         controller: 'loginController'
     })
-        .when('/registration', {
-            templateUrl: 'app/Register/registerUsers.html',
+        .when('/register', {
+            templateUrl: 'Register/register.html',
             controller: 'registerController'
         })
         .when('/success', {
-            templateUrl: 'app/success/loginSuccess.html',
+            templateUrl: 'success/success.html',
             controller: 'successController'
         })
         .otherwise({

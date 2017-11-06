@@ -3,4 +3,5 @@
  */
 userSystem.controller('successController', ['$scope', function ($scope) {
     $scope.message = "success";
+    $scope.msgs = "HAHAHAHA It's Working";
 }]);

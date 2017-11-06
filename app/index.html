@@ -23,9 +23,13 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="app.js"></script>
+    <script src="loginView/loginController.js"></script>
+    <script src="Register/registerController.js"></script>
+    <script src="success/successController.js"></script>
 </head>
 <body>
 <header>
+    <nav ng-include="'navbar.html'"></nav>
 </header>
 <main ng-view ng-controller="loginController">
 </main>
